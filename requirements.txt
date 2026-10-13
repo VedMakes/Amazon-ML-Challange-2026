@@ -1,0 +1,18 @@
+# Python 3.12
+# Step 3 (CPU)
+polars==1.44.2
+numpy==2.5.3
+scipy==1.18.1
+pyarrow==25.0.1
+lightgbm==4.7.0
+scikit-learn==1.9.1
+rapidfuzz==3.14.6
+jellyfish==1.2.1
+anyascii==0.3.3
+psutil==7.2.2
+# Step 1 and step 2 (GPU). Install the torch build for your CUDA version if the default build is not correct.
+torch==2.14.0
+transformers==5.18.0
+sentence-transformers==6.1.0
+datasets==5.0.1
+accelerate==1.15.0
